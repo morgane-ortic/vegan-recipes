@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to the css stylesheet: -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- page title: -->
+    <title>Recipes - Vegan and Easy</title>
+  </head>
+  <body>
+    <!-- the header is the same on all pages -->
+    <header>
+      <!-- website logo with a link to the homepage: -->
+      <div id="logo">
+        <a href="index.html"><img src="./img/logo.jpg" alt="logo" /></a>
+      </div>
+      <!-- navigation bar: -->
+      <nav>
+        <!-- social media links: -->
+        <div class="social-media">
+          <ul>
+            <li>
+              <!-- the links will open in a new tab in the browser: -->
+              <a target="_blank" href="https://www.facebook.com/veganandeasy"
+                ><img src="./img/icon-facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/veganandeasy"
+                ><img src="./img/icon-instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.pinterest.com/veganandeasy"
+                ><img src="./img/icon-pinterest.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/veganandeasy"
+                ><img src="./img/icon-youtube.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- links to categories: -->
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="recipes.html">Recipes</a>
+            </li>
+            <li><a href="meal-plans.html">Meal Plans</a></li>
+            <li><a href="lifestyle.html">Lifestyle</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- unique page content starts here -->
+    <main>
+      <!-- page heading -->
+      <h1>Our Easy Vegan Recipes</h1>
+
+      <!-- navigation menu to jump further down the page with anchor links: -->
+      <div class="menu-main">
+        <ul>
+          <li>
+            <a href="recipes.html#mediterranean">Mediterranean Recipes</a>
+          </li>
+          <li><a href="recipes.html#east-asian">East Asian Recipes</a></li>
+          <li>
+            <a href="recipes.html#central-european">Central European Recipes</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- the next div is a category of recipes: -->
+      <!-- the div container has an id property so we can reach it in the browser
+        from the related anchor link -->
+      <div id="mediterranean">
+        <h2>Mediterranean Recipes</h2>
+        <section class="container">
+          <article class="recipe-box">
+            <a href="tomato-salad.html"
+              ><img src="./img/tomato-salad.jpg" alt="Tomato Salad" />
+              <div class="recipe-box-name">
+                <h3>Tomato Salad</h3>
+              </div></a
+            >
+          </article>
+
+          <article class="recipe-box">
+            <a href="ratatouille.html"
+              ><img src="./img/ratatouille.jpg" alt="Ratatouille" />
+              <div class="recipe-box-name">
+                <h3>Ratatouille</h3>
+              </div></a
+            >
+          </article>
+
+          <article class="recipe-box">
+            <a href="makroud.html"
+              ><img src="./img/makroud.jpg" alt="Makroud" />
+              <div class="recipe-box-name">
+                <h3>Makroud</h3>
+              </div></a
+            >
+          </article>
+
+          <article class="recipe-box">
+            <a href="crema-catalana.html">
+              <img src="./img/crema-catalana.jpg" alt="Crema Catalana" />
+              <div class="recipe-box-name">
+                <h3>Crema Catalana</h3>
+              </div></a
+            >
+          </article>
+        </section>
+      </div>
+      <!-- the recipe category ends here -->
+
+      <!-- the next div is a category of recipes: -->
+      <!-- the div container has an id property so we can reach it in the browser
+        from the related anchor link -->
+      <div id="east-asian">
+        <h2>East Asian Recipes</h2>
+        <section class="container">
+          <article class="empty-box"></article>
+
+          <article class="recipe-box">
+            <a href="tofu-stir-fry.html"
+              ><img src="./img/tofu.jpg" alt="Tofu Stir Fry" />
+              <div class="recipe-box-name">
+                <h3>Tofu Stir Fry</h3>
+              </div></a
+            >
+          </article>
+
+          <article class="recipe-box">
+            <a href="spring-rolls.html"
+              ><img src="./img/spring-rolls.jpg" alt="Spring Rolls" />
+              <div class="recipe-box-name">
+                <h3>Spring Rolls</h3>
+              </div></a
+            >
+          </article>
+
+          <article class="empty-box"></article>
+        </section>
+      </div>
+      <!-- the recipe category ends here -->
+
+      <!-- the next div is a category of recipes: -->
+      <!-- the div container has an id property so we can reach it in the browser
+        from the related anchor link -->
+      <div id="central-european">
+        <h2>Central european Recipes</h2>
+        <section class="container">
+          <article class="recipe-box">
+            <a href="kloesse-cabbage.html"
+              ><img src="./img/kloesse.jpg" alt="Klösse and Red Cabbage" />
+              <div class="recipe-box-name">
+                <h3>Klösse and Red Cabbage</h3>
+              </div></a
+            >
+          </article>
+        </section>
+      </div>
+      <!-- the recipe category ends here -->
+    </main>
+    <!-- unique page content ends here -->
+
+    <!-- the footer is the same on all pages -->
+    <footer>
+      <!-- a link to send an email: -->
+      <p><a href="mailto:email@veganandeasy.net">Contact us</a></p>
+    </footer>
+  </body>
+</html>

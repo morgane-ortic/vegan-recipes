@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to the css stylesheet: -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- page title: -->
+    <title>Vegan and Easy</title>
+  </head>
+  <body>
+    <!-- the header is the same on all pages -->
+    <header>
+      <!-- website logo with a link to the homepage: -->
+      <div id="logo">
+        <a href="index.html"><img src="./img/logo.jpg" alt="logo" /></a>
+      </div>
+      <!-- navigation bar: -->
+      <nav>
+        <!-- social media links: -->
+        <div class="social-media">
+          <ul>
+            <li>
+              <!-- the links will open in a new tab in the browser: -->
+              <a target="_blank" href="https://www.facebook.com/veganandeasy"
+                ><img src="./img/icon-facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/veganandeasy"
+                ><img src="./img/icon-instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.pinterest.com/veganandeasy"
+                ><img src="./img/icon-pinterest.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/veganandeasy"
+                ><img src="./img/icon-youtube.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- links to categories: -->
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="recipes.html">Recipes</a>
+            </li>
+            <li><a href="meal-plans.html">Meal Plans</a></li>
+            <li><a href="lifestyle.html">Lifestyle</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- unique page content starts here -->
+    <main>
+      <!-- this is particularly important text, here the presentation
+        to the website -->
+      <article class="important-text">
+        <p>
+          <strong>Welcome to Vegan and Easy! </strong> We made this website to
+          offer cheap, easy and accessibles recipes, for everyone who wants to
+          cook vegan without needing great skills or a lot of time and money.
+        </p>
+        <p>
+          We propose you new vegan recipes from all around the world every day
+          and <a href="meal-plans.html">meal plans</a> for easy culinary
+          inspirations. On our <a href="lifestyle.html">lifestyle</a> page you
+          can also find a collection of various resources, including information
+          about nutrition, recipe roundups, cooking and veganism tips.
+        </p>
+      </article>
+
+      <!-- the next div is a category of recipes: -->
+      <div>
+        <h2>Recipe of the day</h2>
+        <section class="container">
+          <article class="recipe-box"></article>
+
+          <!-- this is a recipe within article tags: -->
+          <article class="recipe-box">
+            <a href="crema-catalana.html">
+              <img src="./img/crema-catalana.jpg" alt="Crema Catalana" />
+              <div class="recipe-box-name">
+                <h3>Crema Catalana</h3>
+              </div></a
+            >
+          </article>
+
+          <!-- this recipe box is empty, it's a trick to center our previous recipe
+            box while using the justify-content property with the space-around
+            attribute in the css sheet -->
+          <article class="recipe-box"></article>
+        </section>
+      </div>
+      <!-- the recipe category ends here -->
+
+      <!-- the next div is a category of recipes: -->
+      <div>
+        <h2>Meal of the day</h2>
+        <section class="container">
+          <!-- this is a recipe within article tags: -->
+          <article class="recipe-box">
+            <a href="tomato-salad.html"
+              ><img src="./img/tomato-salad.jpg" alt="Tomato Salad" />
+              <div class="recipe-box-name">
+                <h3>Tomato Salad</h3>
+              </div></a
+            >
+          </article>
+
+          <!-- this is a recipe within article tags: -->
+          <article class="recipe-box">
+            <a href="ratatouille.html"
+              ><img src="./img/ratatouille.jpg" alt="Ratatouille" />
+              <div class="recipe-box-name">
+                <h3>Ratatouille</h3>
+              </div></a
+            >
+          </article>
+
+          <!-- this is a recipe within article tags: -->
+          <article class="recipe-box">
+            <a href="crema-catalana.html">
+              <img src="./img/crema-catalana.jpg" alt="Crema Catalana" />
+              <div class="recipe-box-name">
+                <h3>Crema Catalana</h3>
+              </div></a
+            >
+          </article>
+        </section>
+      </div>
+      <!-- the recipe category ends here -->
+    </main>
+    <!-- unique page content ends here -->
+
+    <!-- the footer is the same on all pages -->
+    <footer>
+      <!-- a link to send an email: -->
+      <p><a href="mailto:email@veganandeasy.net">Contact us</a></p>
+    </footer>
+  </body>
+</html>
